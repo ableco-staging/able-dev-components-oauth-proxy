@@ -6,7 +6,7 @@ function LoginPage({ redirectUrl }: { redirectUrl: string }) {
     <Center className="w-screen h-screen space-y-8">
       <h1 className="text-gray-900 font-bold text-3xl">Doable</h1>
       <a href={`/api/auth/google?redirectUrl=${redirectUrl}`}>
-        <Button>Log in with Google</Button>
+        <Button>Log in with Oauth Proxy</Button>
       </a>
     </Center>
   );
